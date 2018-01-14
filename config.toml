@@ -5,7 +5,7 @@ title = "Jorge Rodriguez Marin"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-112462687-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -127,34 +127,46 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "Important professional milestones"
+    endpoint = "I was born"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      img = "blue-ocean-robotics.png"
+      date = "2016-2018"
+      title = "Robot Architect - Blue Ocean Robotics"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
+      img = "blue-ocean-robotics.png"
+      date = "2016-2018"
+      title = "Robot Developer - Blue Ocean Robotics"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
+      img = "sdu.png"
+      date = "2014-2016"
+      title = "MSc in Robot Systems,"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
+      img = "arquimea.gif"
+      date = "2013-2014"
+      title = "Systems Engieneer"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+      [[params.about.events]]
+      img = "crowdfilament.png"
+      date = "2013-2014"
+      title = "Systems Engieneer"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "uc3m.jpg"
+      date = "2010-2014"
+      title = "BSc in Industrial Technology Engineering"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
@@ -162,7 +174,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Our amazing team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -172,76 +184,55 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      name = "Jorge Rodriguez"
+      position = "Robot Architect"
+      # reportsTo = "CTO"
+      livesIn = "[Odense, Denmark](#some-maps-url)"
+      # scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      #   "Open Source [community management](#)"
+      # ]
       # For bio markdown and even multiline strings are available.
       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/jorge.rodriguezmarin.94"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jorgerodriguezmarin/"]
       ]
 
   # Client section
     [params.clients_list]
       enable = true
       # Possibility to center items
-      #center = true
+      center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Worked with and trusted by"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        logo = "blue-ocean-robotics.png"
+        link = "http://www.blue-ocean-robotics.com/"
 
       [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
+        logo = "arquimea.gif"
+        link = "http://www.arquimea.com/"
 
       [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
+        logo = "sdu.png"
+        link = "https://www.sdu.dk/en/"
 
       [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+        logo = "uc3m.jpg"
+        link = "https://www.uc3m.es/Home"
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Contact me"
+    # subtitle  = "Send me an email"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -262,11 +253,11 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "jorge.rguez.marin@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for awesomely contacting me."
+    error = "Message could not be send. Please contact directly at jorge.rguez.marin@gmail.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -296,7 +287,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]

@@ -515,7 +515,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ffffff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -560,6 +560,11 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.timeline .timeline-endpoint{
+    color: #000000;
+    margin-top: 10;
 }
 
 @media(min-width:768px) {

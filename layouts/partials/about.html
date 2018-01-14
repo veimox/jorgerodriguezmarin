@@ -31,7 +31,16 @@
 
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
+              <h4 class="timeline-endpoint">{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>23 FEB 1992</h4>
+                <h4 class="subheading">Madrid, Spain</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">I was born</p>
+              </div>
             </div>
           </li>
         </ul>
